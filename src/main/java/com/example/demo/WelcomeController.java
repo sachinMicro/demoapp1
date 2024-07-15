@@ -10,7 +10,7 @@ public class WelcomeController {
 	
 	@GetMapping
 	public String showMessage() {
-		return "Welcome from Blue Deployment";
+		return "Welcome from { GREEN } Deployment";
 	}
 	
 }
